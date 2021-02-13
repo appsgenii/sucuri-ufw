@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo 192.88.134.0/23 -o /tmp/s_ips
+echo 192.88.134.0/23 >> /tmp/s_ips
 echo 185.93.228.0/22 >> /tmp/s_ips
 echo 2a02:fe80::/29 >> /tmp/s_ips
 echo 66.248.200.0/22 >> /tmp/s_ips
